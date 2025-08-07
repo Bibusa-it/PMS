@@ -1,0 +1,7 @@
+credentials for admin
+username: admin
+password: admin123
+
+for user
+username: user
+password: user123

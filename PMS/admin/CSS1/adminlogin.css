@@ -1,0 +1,68 @@
+body {
+    background-image: url('../../images/parking.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-color: #e9ecef; 
+}
+.login-container {
+    background-color: rgba(247, 249, 252, 0.9); 
+    border-radius: 10px; 
+    padding: 30px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+    margin-top: 100px; 
+}
+.login-container h3, .login-container h4 {
+    color: #333; 
+    font-weight: bold; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
+}
+.login-container h4 {
+    color: #007bff; 
+    font-size: 1.5rem; 
+}
+label {
+    font-weight: 600; 
+    color: #555; 
+}
+.form-control {
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid #ced4da; 
+}
+.form-control:focus {
+    border-color: #007bff; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.btn-primary {
+    background-color: #007bff; 
+    border-color: #007bff; 
+    border-radius: 5px; 
+}
+.btn-primary:hover {
+    background-color: #0056b3; 
+    border-color: #0056b3; 
+}
+.alert {
+    margin-top: 15px;
+}
+.text-center a {
+    color: #007bff; 
+    font-weight: 500; 
+}
+.text-center a:hover {
+    text-decoration: underline; 
+}
+.sidebar .submenu {
+    padding-left: 20px;
+    font-size: 0.9rem;
+}
+
+.sidebar .submenu a {
+    color: #555;
+}
+
+.sidebar .submenu a:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
